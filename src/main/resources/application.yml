@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    consumer:
+      group-id: orders
+      auto-offset-reset: earliest
+    bootstrap-servers: localhost:9092
+
+
+orders:
+  topic-name: order-process
+#  messages-per-request: 10
